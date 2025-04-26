@@ -1,0 +1,25 @@
+# Ignore build results
+bin/
+obj/
+
+# Ignore Visual Studio settings
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore runtime files
+*.log
+
+# Ignore environment files
+.env
+
+# Ignore Docker files
+*.pid
+docker-compose.override.yml
+
+# Ignore system files
+.DS_Store
+Thumbs.db
